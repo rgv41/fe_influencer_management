@@ -1,14 +1,14 @@
-import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import React from "react";
+import { Navbar, Container } from "react-bootstrap";
 
 function NavbarBrand() {
   const navbarStyle = {
-    position: 'fixed',
+    position: "fixed",
     top: 0,
-    left: '250px', // Adding left padding to make room for the sidebar
-    width: 'calc(100% - 250px)', // Reducing navbar width to avoid overlapping with the sidebar
+    left: "250px", // Adding left padding to make room for the sidebar
+    width: "calc(100% - 250px)", // Reducing navbar width to avoid overlapping with the sidebar
     zIndex: 1000,
-    backgroundColor: '#001D3D',
+    backgroundColor: "#001D3D",
   };
 
   return (
